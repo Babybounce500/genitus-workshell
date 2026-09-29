@@ -127,6 +127,11 @@ const GROUPS=[
     ['div-risk','Risk Metrics','https://babybounce500.github.io/genitus-dividend-risk/','Volatility proxy, drawdown, total return'],
     ['div-growth','Growth Screener','https://babybounce500.github.io/genitus-dividend-growth/','Chowder Number, cut-risk, percentile rank'],
     ['div-correlation','Correlation Matrix','https://babybounce500.github.io/genitus-dividend-correlation/','Watchlist diversification check'],
+  ]},
+  {title:'CLIENT / SALES TOOLS',icon:'fa-handshake',apps:[
+    ['div-goal','Income Goal','https://babybounce500.github.io/genitus-dividend-income-goal/','Reverse-calculate capital for target income'],
+    ['div-factsheet','Client Fact Sheet','https://babybounce500.github.io/genitus-dividend-factsheet/','Printable, jargon-free one-pager'],
+    ['div-compare','Compare','https://babybounce500.github.io/genitus-dividend-compare/','Two stocks, side by side'],
   ]}
 ];
 const catalog=new Map(GROUPS.flatMap(g=>g.apps.map(([id,title,url,sub])=>[id,{id,title,url,sub}])));
